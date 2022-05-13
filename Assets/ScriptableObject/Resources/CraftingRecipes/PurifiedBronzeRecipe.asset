@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55a4dffbf63f2469eac08398aaede8, type: 3}
+  m_Name: PurifiedBronzeRecipe
+  m_EditorClassIdentifier: 
+  _id: purifiedBronze
+  _name: purifiedBronze
+  _icon: {fileID: 0}
+  _prefab: {fileID: 5745895947431383173, guid: 4adca51e86631ca4f97a9ffb65a3fe24, type: 3}
+  needsIngredients:
+  - ingredient: {fileID: 11400000, guid: 2f2b8ecddda609a408b2ea6366d53909, type: 2}
+    amount: 1
+  - ingredient: {fileID: 11400000, guid: 2f2b8ecddda609a408b2ea6366d53909, type: 2}
+    amount: 1
+  result:
+  - ingredient: {fileID: 11400000, guid: 2cb21d8c443ca9d428cb768be74fe80f, type: 2}
+    amount: 1

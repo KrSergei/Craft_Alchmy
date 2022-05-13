@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55a4dffbf63f2469eac08398aaede8, type: 3}
+  m_Name: PurifiedCopperRecipe
+  m_EditorClassIdentifier: 
+  _id: purifiedCopper
+  _name: purifiedCopper
+  _icon: {fileID: 0}
+  _prefab: {fileID: 1199381612191355550, guid: ae202ac936e5c4948b790650dc0debcd, type: 3}
+  needsIngredients:
+  - ingredient: {fileID: 11400000, guid: 7711e550c459f014d9be752b57d54a7c, type: 2}
+    amount: 1
+  - ingredient: {fileID: 11400000, guid: 7711e550c459f014d9be752b57d54a7c, type: 2}
+    amount: 1
+  result:
+  - ingredient: {fileID: 11400000, guid: e63c356d9b213ed48bc62b095f784c86, type: 2}
+    amount: 1
